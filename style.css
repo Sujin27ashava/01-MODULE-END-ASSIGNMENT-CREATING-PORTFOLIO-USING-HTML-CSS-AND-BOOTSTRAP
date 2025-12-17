@@ -1,0 +1,33 @@
+.layout{
+            display:grid;
+            grid-template-columns:repeat(5,1fr);
+            grid-template-areas: "h h h h h""ho ho ho ho ho""a a a a a""s s s s s""p p p p p""r r r r r""t t t t c""f f f f f";
+            grid-template-rows: 10vh 160vh 130vh 75vh 110vh 110vh 88vh 10vh;
+           
+          }
+.layout div{
+            display: grid;
+            justify-content: center;
+            align-items: center;
+            }
+.header{grid-area: h;}
+.Home{ grid-area: ho;}
+.About{grid-area: a;}
+.Skills{grid-area: s;}
+.Portfolio{grid-area: p;}
+.Resume{grid-area: r;}
+.Testimonials{
+            grid-area: t;
+           width: 1000px;
+           height: 610px;
+           border: black solid 20px;
+           display:flex;
+         }
+.Contact{grid-area: c;}
+.footer{grid-area: f;}
+
+
+
+
+
+
